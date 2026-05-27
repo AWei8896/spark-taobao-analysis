@@ -1,0 +1,28 @@
+# 数据文件 (太大，不上传)
+*.csv
+*.csv.gz
+!requirements.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# PySpark / Spark
+metastore_db/
+derby.log
+spark-warehouse/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 临时文件
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
